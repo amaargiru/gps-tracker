@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="main_header_start">#964B00</color>
+    <color name="main_header_end">#D2691E</color>
+    
+    <color name="child_header_start">#DDAAAAFF</color>
+    <color name="child_header_end">#DDEEEEFF</color>
+    
+    <color name="button_start">#D2691E</color>
+    <color name="button_end">#a50b00</color>
+    
+    <color name="button_disable_start">#C4C4CC</color>
+    <color name="button_disable_end">#6D6D71</color>
+    
+    <color name="base_text">#000000</color>
+	<color name="result_text">#000000</color>
+    
+</resources>

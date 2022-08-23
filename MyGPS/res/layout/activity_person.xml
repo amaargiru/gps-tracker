@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/personLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/child_selector"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/personTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/base_layout_margin"
+        android:layout_marginLeft="@dimen/base_layout_margin"
+        android:layout_marginRight="@dimen/base_layout_margin"
+        android:layout_marginTop="@dimen/base_layout_margin"
+        android:text="@string/person_title"
+        android:textColor="@color/base_text" />
+
+    <ScrollView
+        android:id="@+id/personScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/okPersonButton"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/personTitle"
+        android:layout_marginBottom="@dimen/scroll_botton_margin"
+        android:layout_marginLeft="@dimen/base_layout_margin"
+        android:layout_marginRight="@dimen/base_layout_margin"
+        android:fadeScrollbars="false" >
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radioGroupPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonMaster"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/iam_target" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTarget1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/person_target1" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTarget2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/person_target2" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/okPersonButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="  OK  " />
+
+</RelativeLayout>

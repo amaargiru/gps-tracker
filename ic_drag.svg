@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="ic_drag.svg"
+   inkscape:export-filename="C:\NeatData\Data1(CurrentWorx)\Copestone\16_Pokaz_All_My_Family_Free_GPS_Tracker\ic_drag.png"
+   inkscape:export-xdpi="698.89294"
+   inkscape:export-ydpi="698.89294">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="215.22988"
+     inkscape:cy="528.39201"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 469.41313,561.63657 c 4.58831,7.50971 -0.41728,8.561 -7.40501,12.13119 -9.88573,5.04751 -34.34523,2.58531 -42.71917,-2.4622 -7.68576,-4.67818 -6.98876,-5.55637 -3.32993,-11.58876"
+       id="imagebot_14"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#333333;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.6;stroke-dasharray:none"
+       inkscape:export-xdpi="265"
+       inkscape:export-ydpi="265"
+       sodipodi:nodetypes="cccc" />
+    <path
+       d="m 355.48867,507.41147 c -6.90253,13.04966 20.7539,18.71272 28.68709,19.6976 9.53242,1.2311 23.63712,27.33042 40.16958,32.25482 11.20547,3.32397 36.10323,4.67818 44.92775,-1.84665 15.11546,-11.0799 22.74828,-25.48377 26.20767,-43.21161 1.21879,-6.27861 2.09286,-13.41899 1.16954,-19.32827 -3.9149,-24.64662 -18.40003,-24.63431 -24.01754,-25.50839 -3.35721,-10.73519 -15.63373,-18.51575 -32.09231,-15.25333 -0.1268,-13.22201 0.27824,-21.3719 1.36899,-33.89218 1.82695,-20.95333 -34.55822,-14.83476 -33.81955,18.78658 0.37179,16.87838 7.69561,45.27986 -1.9833,67.56277 -19.25564,-16.25052 -38.10501,-23.02157 -50.61791,0.73866 z"
+       id="imagebot_13"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#333333;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.60000002" />
+    <path
+       d="m 462.10045,549.39198 c 6.08041,-11.44923 6.33155,-14.7732 8.40349,-20.68248"
+       id="imagebot_10"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#333333;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.60000002" />
+    <path
+       d="m 450.52197,549.14576 c 3.41753,-13.91143 3.75239,-20.80559 5.18785,-30.28506"
+       id="imagebot_9"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#333333;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.60000002" />
+    <path
+       d="m 436.71148,548.53021 c 1.05259,-9.8488 0.6414,-14.52698 0.68326,-20.80559"
+       id="imagebot_8"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#333333;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.60000002" />
+  </g>
+</svg>

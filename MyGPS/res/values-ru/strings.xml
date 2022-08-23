@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rate_app">Пожалуйста, оцените приложение</string>
+    <string name="couldnt_rate">Не могу перейти в Google Play. В любом случае спасибо Вам.</string>
+    <string name="if_you_like"> Если Вам понравилась программа \"</string>
+    <string name="please_rate">\", пожалуйста, оцените её. Спасибо за Вашу поддержку! </string>
+    <string name="yes">Хорошо</string>
+    <string name="no">Нет</string>
+
+    <string name="help_title">Помощь по программе Whole Family Free GPS Locator.</string>
+    <string name="help_subtitle">Программа GPS трекинга Whole Family Free GPS Locator способна отображать на карте координаты других Android-устройств с установленной аналогичной программой. Вам достаточно установить Whole Family Free GPS Locator на телефоны или планшеты членов вашей семьи и Вы сможете постоянно видеть их маркеры на карте. Программа обладает следующей функциональностью:</string>
+    <string name="help_settings">Настройки. Позволяет задать свой логин и пароль, а также логины и пароли отслеживаемых пользователей.</string>
+    <string name="help_search">Найти человека. Позволяет выбрать одного из отслеживаемых пользователей и центрирует карту на его местоположении.</string>
+    <string name="help_rating">Вы можете перейти в Google Play, чтобы проставить рейтинг приложению или оставить комментарий.</string>
+    <string name="help_drag">Перетаскивайте панель с кнопками в наиболее удобное положение, уцепившись за эту картинку.</string>
+    <string name="help_start">Запуск/остановка работы GPS-приемника и обмена информацией с сервером.</string>
+    <string name="help_message">Отправляйте сообщения тем, за кем наблюдаете. Это не SMS,
+        сообщение будет бесплатно передано вместе с координатами.</string>
+    
+    <string name="person_title">Выберите пользователя, которого хотите найти на карте. После нажатия кнопки ОК карта будет отцентрирована по искомой цели.</string>
+    <string name="iam_target">Мои координаты</string>
+    <string name="person_target1">Цель №1</string>
+    <string name="person_target2">Цель №2</string>
+    
+    <string name="settings_title">Введите свои логин/пароль и логины/пароли отслеживаемых Вами целей. Если это первый запуск программы, то придумайте себе новые логин и пароль, они будут зарегистрированы на сервере. Для логина и пароля используйте только латинские буквы и цифры. Выбирайте достаточно сложные пароли, иначе посторонние лица смогут отслеживать ваши координаты.</string>
+    <string name="settings_yourdata">Введите свои логин и пароль:</string>
+    <string name="settings_myusername">Мой логин</string>
+    <string name="settings_mypass">Мой пароль</string>
+    <string name="settings_targetsdata">Ниже введите логины и пароли отслеживаемых пользователей (одного или двух):</string>
+    <string name="settings_target1username">Логин цели 1</string>
+    <string name="settings_target1pass">Пароль цели 1</string>
+    <string name="settings_target2username">Логин цели 2</string>
+    <string name="settings_target2pass">Пароль цели 2</string>
+    <string name="settings_enter">Войти/Зарегистрироваться</string>
+    <string name="settings_bootupinvite">Автоматически загружать приложение при перезагрузке</string>
+    
+    <string name="message_title">Отправка сообщения. Максимальная длина сообщения 200 символов.</string>
+    <string name="message_invite">Ваше сообщение:</string>
+    <string name="message_to_user1">Отправить цели 1</string>
+    <string name="message_to_user2">Отправить цели 2</string>
+    <string name="message_send"> Отправить </string>
+    <string name="message_cancel"> Отмена </string>
+    <string name="message_is_send"> Сообщения отправлены </string>
+    <string name="message_select"> Перед отправкой сообщения выберите хотя бы одну цель </string>
+    <string name="message_notmessage"> Введите сообщение </string>
+    <string name="message_new_from"> Новое сообщение от </string>
+    <string name="message_new_from_target"> Новое сообщение от цели </string>
+    <string name="message_new"> Новое сообщение </string>
+     
+    <string name="symbol_list"> abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZабвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ1234567890 </string>
+    <string name="no_sd"> Отсутствует SD-карта. Карты могут отображаться некорректно. </string>
+    
+</resources>

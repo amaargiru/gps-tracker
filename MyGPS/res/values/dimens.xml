@@ -1,0 +1,10 @@
+<resources>
+    
+<dimen name="base_layout_margin">5dp</dimen>
+<dimen name="radio_button_margin">20dp</dimen>
+<dimen name="scroll_botton_margin">20dp</dimen>
+<dimen name="child_radius">9dp</dimen>
+<dimen name="button_radius">5dp</dimen>
+<dimen name="edit_text_radius">5dp</dimen>
+
+</resources>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/incomingMesageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/child_selector"
+                android:orientation="vertical"
+                tools:context=".MainActivity" >
+
+    <TextView
+            android:id="@+id/messageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/base_layout_margin"
+            android:layout_marginLeft="@dimen/base_layout_margin"
+            android:layout_marginRight="@dimen/base_layout_margin"
+            android:layout_marginTop="@dimen/base_layout_margin"
+            android:text="@string/message_new_from"
+            android:textColor="@color/base_text" />
+
+    <ScrollView
+            android:id="@+id/newIncomingMessageScroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/okHelpButton"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/messageTitle"
+            android:layout_marginBottom="@dimen/scroll_botton_margin"
+            android:layout_marginLeft="@dimen/base_layout_margin"
+            android:layout_marginRight="@dimen/base_layout_margin"
+            android:fadeScrollbars="false" >
+
+        <LinearLayout
+                android:id="@+id/mainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/scroll_botton_margin"
+                android:orientation="vertical" >
+
+            <TextView
+                    android:id="@+id/messageBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="foo new message"
+                    android:textColor="@color/base_text" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+            android:id="@+id/okReadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="  OK  " />
+
+</RelativeLayout>

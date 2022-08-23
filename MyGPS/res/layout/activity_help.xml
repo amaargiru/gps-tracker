@@ -1,0 +1,221 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/helpLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/child_selector"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/helpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/base_layout_margin"
+        android:layout_marginLeft="@dimen/base_layout_margin"
+        android:layout_marginRight="@dimen/base_layout_margin"
+        android:layout_marginTop="@dimen/base_layout_margin"
+        android:text="@string/help_title"
+        android:textColor="@color/base_text" />
+
+    <ScrollView
+        android:id="@+id/helpScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/okHelpButton"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/helpTitle"
+        android:layout_marginBottom="@dimen/scroll_botton_margin"
+        android:layout_marginLeft="@dimen/base_layout_margin"
+        android:layout_marginRight="@dimen/base_layout_margin"
+        android:fadeScrollbars="false" >
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/firstHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/help_subtitle"
+                android:textColor="@color/result_text" />
+
+            <LinearLayout
+                android:id="@+id/settingsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/settingsImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/ic_action_settings" />
+
+                <TextView
+                    android:id="@+id/settingsHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/scroll_botton_margin"
+                    android:layout_marginLeft="@dimen/base_layout_margin"
+                    android:layout_marginRight="@dimen/base_layout_margin"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/help_settings"
+                    android:textColor="@color/result_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/personImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_action_person" />
+
+                <TextView
+                    android:id="@+id/personHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/scroll_botton_margin"
+                    android:layout_marginLeft="@dimen/base_layout_margin"
+                    android:layout_marginRight="@dimen/base_layout_margin"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/help_search"
+                    android:textColor="@color/result_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ratingLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ratingImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_action_not_important" />
+
+                <TextView
+                    android:id="@+id/ratingHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/scroll_botton_margin"
+                    android:layout_marginLeft="@dimen/base_layout_margin"
+                    android:layout_marginRight="@dimen/base_layout_margin"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/help_rating"
+                    android:textColor="@color/result_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dragLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/dragImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_drag" />
+
+                <TextView
+                    android:id="@+id/dragHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/scroll_botton_margin"
+                    android:layout_marginLeft="@dimen/base_layout_margin"
+                    android:layout_marginRight="@dimen/base_layout_margin"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/help_drag"
+                    android:textColor="@color/result_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/start_stopLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/stopImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_action_play" />
+
+                <ImageView
+                    android:id="@+id/startImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_action_pause" />
+
+                <TextView
+                    android:id="@+id/start_stopHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/scroll_botton_margin"
+                    android:layout_marginLeft="@dimen/base_layout_margin"
+                    android:layout_marginRight="@dimen/base_layout_margin"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/help_start"
+                    android:textColor="@color/result_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/messageLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                <ImageView
+                        android:id="@+id/messageImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_action_new_email" />
+
+                <TextView
+                        android:id="@+id/messageHelp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/scroll_botton_margin"
+                        android:layout_marginLeft="@dimen/base_layout_margin"
+                        android:layout_marginRight="@dimen/base_layout_margin"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/help_message"
+                        android:textColor="@color/result_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/okHelpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="  OK  " />
+
+</RelativeLayout>

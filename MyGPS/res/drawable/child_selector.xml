@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape>
+        <gradient
+            android:angle="270"
+            android:startColor="@color/child_header_start"
+            android:endColor="@color/child_header_end"
+            android:type="linear" />
+            <corners
+        android:bottomLeftRadius="@dimen/child_radius"
+        android:bottomRightRadius="@dimen/child_radius"
+        android:topLeftRadius="@dimen/child_radius"
+        android:topRightRadius="@dimen/child_radius"
+/>
+    </shape>
+</item>
+</selector>
+
+<!-- http://stackoverflow.com/questions/5976805/android-linearlayout-gradient-background -->

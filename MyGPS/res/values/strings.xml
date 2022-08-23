@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whole Family Free GPS Locator</string>
+    <string name="rate_app">Please rate app</string>
+    <string name="couldnt_rate">Could not rate this app. Anyway, thank you.</string>
+    <string name="if_you_like"> If you enjoy using \"</string>
+    <string name="please_rate">\", please take a moment to rate it. Thanks for your support! </string>
+    <string name="yes">OK</string>
+    <string name="no">No</string>
+    <string name="admob_publisher_id">ca-app-pub-1548609430253492/5367772221</string>
+    <string name="ads_switcher">http://sepulkary.com/ads_enables/all_my_family_gps_ads_on.txt</string>
+    <string name="ads_target">APP ADS ON</string>
+    
+    <string name="help_title">Whole Family Free GPS Locator Help.</string>
+    <string name="help_subtitle">Whole Family Free GPS Locator lets you locate any Android phone or tablet with GPS. No registration, no SMS, no paid plans, and GPS coordinates updated every 10 seconds! Whole Family Free GPS Locator uses GPS Tracker technology to accurately locate the people you care about, and server side to store GPS data. Features include:</string>
+    <string name="help_settings">Settings. Let you specify your username and password, and usernames and passwords for track users.</string>
+    <string name="help_search">Search targets. Let you select one target and centers the map of its location.</string>
+    <string name="help_rating">Open the Google Play Store to leave rating and review.</string>
+    <string name="help_drag">Drag the panel with buttons in the most comfortable position, clinging to this picture.</string>
+    <string name="help_start">Start/stop GPS-receiver and contacting the server.</string>
+    <string name="help_message">Send messages to targets.</string>
+    
+    <string name="person_title">Select the user to find it on the map.</string>
+    <string name="iam_target">My coordinates</string>
+    <string name="person_target1">Target #1</string>
+    <string name="person_target2">Target #2</string>
+    
+    <string name="settings_title">Enter your username/password and usernames/passwords for your tracked goals. If the app is launched for the first time, enter new usernames/passwords, they will be registered on the server. Please use letters and digits only.</string>
+    <string name="settings_yourdata">Enter your username and password:</string>
+    <string name="settings_myusername">My username</string>
+    <string name="settings_mypass">My password</string>
+    <string name="settings_targetsdata">Below enter usernames and passwords for your tracked goals (one or both):</string>
+    <string name="settings_target1username">Target 1 username</string>
+    <string name="settings_target1pass">Target 1 password</string>
+    <string name="settings_target2username">Target 2 username</string>
+    <string name="settings_target2pass">Target 2 password</string>
+    <string name="settings_enter">Enter</string>
+    <string name="settings_bootupinvite">Autostart application at bootup</string>
+    
+    <string name="message_title">Send message. The maximum length is 200 characters.</string>
+    <string name="message_invite">Your message:</string>
+    <string name="message_to_user1">Send to target 1</string>
+    <string name="message_to_user2">Send to target 2</string>
+    <string name="message_send"> Send </string>
+    <string name="message_cancel"> Cancel </string>
+    <string name="message_is_send"> Message(s) sending </string>
+    <string name="message_select"> Before sending the message, select at least one goal </string>
+    <string name="message_notmessage"> Please, enter the message </string>
+    <string name="message_new_from_target"> New message from target </string>
+    <string name="message_new_from"> New message from </string>
+    <string name="message_new"> New message </string>
+    
+    <string name="symbol_list"> abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 </string>
+    <string name="no_sd"> No SD-card. Maps may be displayed incorrectly. </string>
+    
+</resources>

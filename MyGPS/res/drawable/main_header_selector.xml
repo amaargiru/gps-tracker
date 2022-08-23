@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape>
+        <gradient
+            android:angle="270"
+            android:startColor="@color/main_header_start"
+            android:endColor="@color/main_header_end"
+            android:type="linear" />
+    </shape>
+</item>
+</selector>
+
+<!-- http://stackoverflow.com/questions/5976805/android-linearlayout-gradient-background -->

@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rootLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/child_selector"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+
+    <org.osmdroid.views.MapView
+            android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+    </org.osmdroid.views.MapView>
+
+    <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admob_publisher_id"
+            ads:loadAdOnCreate="true">
+    </com.google.ads.AdView>
+
+    <RelativeLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/child_selector">
+
+        <ImageButton
+                android:id="@+id/settingsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:src="@drawable/ic_action_settings"/>
+
+        <ImageButton
+                android:id="@+id/start_stopButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/settingsButton"
+                android:background="@null"
+                android:src="@drawable/ic_action_play_inactive"/>
+
+        <ImageButton
+                android:id="@+id/personButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/start_stopButton"
+                android:background="@null"
+                android:src="@drawable/ic_action_person"/>
+
+        <ImageButton
+                android:id="@+id/messageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/personButton"
+                android:background="@null"
+                android:src="@drawable/ic_action_new_email"/>
+
+        <ImageButton
+                android:id="@+id/ratingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/messageButton"
+                android:background="@null"
+                android:src="@drawable/ic_action_not_important"/>
+
+        <ImageButton
+                android:id="@+id/helpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/ratingButton"
+                android:background="@null"
+                android:src="@drawable/ic_action_help"/>
+
+        <ImageButton
+                android:id="@+id/dragButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/helpButton"
+                android:background="@null"
+                android:src="@drawable/ic_drag"/>
+
+        <!-- http://stackoverflow.com/questions/4100272/android-layout-marginbottom-doesnt-seem-to-work-properly-in-2-2-froyo -->
+
+        <View
+                android:id="@+id/horizontal_gap"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_toRightOf="@+id/dragButton"/>
+
+        <View
+                android:id="@+id/vertical_gap"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_below="@+id/dragButton"/>
+    </RelativeLayout>
+
+</RelativeLayout>
