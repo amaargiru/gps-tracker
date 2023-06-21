@@ -31,9 +31,9 @@ public class PersonActivity extends Activity {
 		radioButtonMaster = (RadioButton) findViewById(R.id.radioButtonMaster);
 		radioButtonTarget1 = (RadioButton) findViewById(R.id.radioButtonTarget1);
 		radioButtonTarget2 = (RadioButton) findViewById(R.id.radioButtonTarget2);
-		enterPersonButton = (Button) findViewById(R.id.okPersonButton); // ������ "��"
+		enterPersonButton = (Button) findViewById(R.id.okPersonButton);
 
-		enterPersonButton.setOnClickListener(new Button.OnClickListener() { // ���������� ������ "�����/������������������"
+		enterPersonButton.setOnClickListener(new Button.OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
 						if (radioButtonMaster.isChecked())

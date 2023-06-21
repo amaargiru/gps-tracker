@@ -295,8 +295,6 @@ public class MainActivity extends Activity implements LocationListener, OnTouchL
 		Notification n = nb.getNotification();
 
 		NotificationManager nm = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-		//Random r = new Random();
-		//int nid = r.nextInt(2147483647);
 		nm.notify(101, n);
 	}
 
@@ -305,8 +303,6 @@ public class MainActivity extends Activity implements LocationListener, OnTouchL
 			Log.v(TAG, "location = " + location);
 			Log.v(TAG, "appState = " + appState);
 		}
-
-		//RestoreSettings();
 
 		currentZoom = mapView.getZoomLevel();
 
@@ -351,21 +347,6 @@ public class MainActivity extends Activity implements LocationListener, OnTouchL
 					intent.putExtra("targetLoginInput", target1LoginInput);
 					intent.putExtra("targetUserMessage", target1UserMessage);
 					startActivityForResult(intent, REQUEST_CODE_INCOMING_MESSAGE);
-
-					//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
-
-					//alertDialogBuilder.setTitle(getString(R.string.message_new_from) + " " + target1LoginInput);
-					//alertDialogBuilder.setMessage(target1UserMessage).setCancelable(false)
-					//		  .setPositiveButton(" OK ", new DialogInterface.OnClickListener() {
-					//			  public void onClick(DialogInterface dialog, int id) {
-					//			  }
-					//		  });
-					//AlertDialog alertDialog = alertDialogBuilder.create();
-					//alertDialog.show();
-
-					//if (!isInFront)
-					//	createInfoNotification(getString(R.string.message_new), getString(R.string.message_new_from) + " "
-					//			  + target1LoginInput, R.drawable.ic_action_unread);
 				}
 
 				if ((!target2UserMessage.equals("")) && (!target2ServiceMessage.equals(target2OldServiceMessage))
@@ -385,10 +366,6 @@ public class MainActivity extends Activity implements LocationListener, OnTouchL
 							  });
 					AlertDialog alertDialog = alertDialogBuilder.create();
 					alertDialog.show();
-
-					//if (!isInFront)
-					//	createInfoNotification(getString(R.string.message_new), getString(R.string.message_new_from) + " "
-					//			  + target2LoginInput, R.drawable.ic_action_unread);
 				}
 
 				if ((Math.abs(target1Latitude) > EPSILON) && (Math.abs(target1Longitude) > EPSILON)) {

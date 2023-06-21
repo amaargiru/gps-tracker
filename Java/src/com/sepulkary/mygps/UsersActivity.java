@@ -62,7 +62,7 @@ public class UsersActivity extends Activity {
 
 		AutoStartup.setChecked(autoReloadState);
 
-		enterUsersButton.setOnClickListener(new Button.OnClickListener() { // ���������� ������ "�����/������������������"
+		enterUsersButton.setOnClickListener(new Button.OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
 						Intent intent = new Intent(UsersActivity.this, MainActivity.class);

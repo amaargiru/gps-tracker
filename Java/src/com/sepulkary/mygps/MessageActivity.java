@@ -43,7 +43,7 @@ public class MessageActivity extends Activity {
 		checkTarget1 = (CheckBox) findViewById(R.id.checkTarget1);
 		checkTarget2 = (CheckBox) findViewById(R.id.checkTarget2);
 
-		sendButton.setOnClickListener(new Button.OnClickListener() { // ���������� ������ "��������� ���������"
+		sendButton.setOnClickListener(new Button.OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
 						if (!checkTarget1.isChecked() && !checkTarget2.isChecked()) {
@@ -87,7 +87,7 @@ public class MessageActivity extends Activity {
 					}
 				});
 
-		cancelButton.setOnClickListener(new Button.OnClickListener() { // ���������� ������ "������"
+		cancelButton.setOnClickListener(new Button.OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
 						Intent intent = new Intent(MessageActivity.this, MainActivity.class);

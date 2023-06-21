@@ -19,7 +19,7 @@ public class HelpActivity extends Activity {
 
 		okHelpButton = (Button) findViewById(R.id.okHelpButton);
 
-		okHelpButton.setOnClickListener(new Button.OnClickListener() { // ���������� ������ "��"
+		okHelpButton.setOnClickListener(new Button.OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
 						Intent intent = new Intent(HelpActivity.this, MainActivity.class);

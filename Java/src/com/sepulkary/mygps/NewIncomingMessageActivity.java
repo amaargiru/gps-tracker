@@ -34,7 +34,7 @@ public class NewIncomingMessageActivity extends Activity {
 		messageTitle.setText(getString(R.string.message_new_from) + " " + targetLoginInput + ":");
 		messageBody.setText(targetUserMessage);
 
-		okReadButton.setOnClickListener(new Button.OnClickListener() { // ?????????? ?????? "?????/??????????????????"
+		okReadButton.setOnClickListener(new Button.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 				Intent intent = new Intent(NewIncomingMessageActivity.this, MainActivity.class);
@@ -44,4 +44,3 @@ public class NewIncomingMessageActivity extends Activity {
 		});
 	}
 }
-
